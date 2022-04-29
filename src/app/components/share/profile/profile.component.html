@@ -1,0 +1,23 @@
+<div class="nav"> 
+  <div class="nav-header">
+    <div class="nav-title">
+      Practicle
+    </div>
+  </div>
+  <div class="nav-btn">
+    <button class="custom-btn btn-10">Sign Out</button>
+  </div> 
+</div>  
+<button class="custom-btn btn-3" (click)="enable()"><span>Edit</span></button>
+<div class="profile-page">
+    <div class="form"> 
+      <form class="profile-form">
+        <p class='profile'>User Profile</p>
+        <input type="text" placeholder="email" [disabled]="true"/>
+        <input type="password" placeholder="password" [disabled]="isDisabled"/> 
+        <input type="text" placeholder="mobile number" [disabled]="isDisabled"/>
+        <button>save</button> 
+      </form>
+    </div>
+  </div>
+  
